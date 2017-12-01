@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Work+Sans");
+.navbar {
+  font-family: Work sans;
+  text-transform: uppercase; }
+
+.images img {
+  height: 200px;
+  padding-bottom: 5px;
+  padding-right: 5px; }
+
+body {
+  font-family: Roboto, Work sans; }
+
+.logo {
+  background-image: url("../images/ANALOGUE.png");
+  background-size: 20rem;
+  background-repeat: no-repeat;
+  height: 50rem; }
+
+.front_img {
+  background-image: url("../images/front.jpg");
+  background-size: cover;
+  background-position: 0px -11rem;
+  color: #ddd; }
+  .front_img .display-3 {
+    font-size: 6rem;
+    color: #ddd; }
+  .front_img .give-fade {
+    background: rgba(2, 2, 2, 0.5); }
+    .front_img .give-fade p {
+      width: 40rem;
+      font-size: 1.8rem; }
+
+.navi ul {
+  border-bottom: 1px solid #ccc; }
+  .navi ul .nav-item {
+    font-size: 1.2rem; }
+
+.pieces img {
+  padding-bottom: 1rem; }
+
+.forum .thePosts .row {
+  border-bottom: 1px solid #ccc; }
+.forum .thePosts [class*='col-md'] {
+  padding-top: 0.5rem;
+  cursor: pointer; }
+.forum .row:nth-child(2) p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  max-height: 5rem; }
+
+.blog_posts {
+  background: #eaecef; }
+
+/*# sourceMappingURL=style.css.map */
